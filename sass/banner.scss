@@ -1,0 +1,86 @@
+.banner-box {
+    background: url(../img/banner0.jpg) no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    width: 100%;
+    padding: 150px 230px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    &__logo {
+        position: absolute;
+        top: 10px;
+
+        p {
+            font-size: 18px;
+
+            &:last-child {
+                font-weight: 300;
+            }
+        }
+    }
+
+
+    h1 {
+        text-align: left;
+        padding-bottom: 20px;
+        letter-spacing: 4px;
+        font-size: 40px;
+        letter-spacing: 2px;
+
+    }
+
+
+
+    h2 {
+        font-size: 37px;
+        padding: 50px 0;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    p {
+        text-align: left;
+
+    }
+
+
+    &:nth-child(3) {
+        background: url(../img/banner1.jpg) no-repeat;
+        background-position: center auto;
+        background-size: 100% auto;
+    }
+
+    &:nth-child(5) {
+        background: url(../img/banner2.jpg) no-repeat;
+        background-position: center auto;
+        background-size: 100% auto;
+    }
+
+    &:nth-child(7) {
+        background: url(../img/banner3.jpg) no-repeat;
+        background-position: center auto;
+        background-size: 100% auto;
+    }
+
+    &:nth-child(9) {
+        background: url(../img/banner4.jpg) no-repeat;
+        background-position: center auto;
+        background-size: 100% auto;
+    }
+
+    &:nth-child(11) {
+        background: url(../img/banner5.jpg) no-repeat;
+        background-position: center auto;
+        background-size: 100% auto;
+    }
+
+    &:nth-child(13) {
+        background: url(../img/banner6.jpg) no-repeat;
+        background-position: center auto;
+        background-size: 100% auto;
+    }
+
+
+}

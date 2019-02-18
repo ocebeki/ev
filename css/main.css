@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,700|Source+Sans+Pro:400,700i"';
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: auto;
+}
+
+.wrapper {
+  padding: 0 230px;
+}
+
+.banner-box {
+  background: url(../img/banner0.jpg) no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  width: 100%;
+  padding: 150px 230px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.banner-box__logo {
+  position: absolute;
+  top: 10px;
+}
+.banner-box__logo p {
+  font-size: 18px;
+}
+.banner-box__logo p:last-child {
+  font-weight: 300;
+}
+.banner-box h1 {
+  text-align: left;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.banner-box h2 {
+  font-size: 37px;
+  padding: 50px 0;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.banner-box p {
+  text-align: left;
+}
+.banner-box:nth-child(3) {
+  background: url(../img/banner1.jpg) no-repeat;
+  background-position: center auto;
+  background-size: 100% auto;
+}
+.banner-box:nth-child(5) {
+  background: url(../img/banner2.jpg) no-repeat;
+  background-position: center auto;
+  background-size: 100% auto;
+}
+.banner-box:nth-child(7) {
+  background: url(../img/banner3.jpg) no-repeat;
+  background-position: center auto;
+  background-size: 100% auto;
+}
+.banner-box:nth-child(9) {
+  background: url(../img/banner4.jpg) no-repeat;
+  background-position: center auto;
+  background-size: 100% auto;
+}
+.banner-box:nth-child(11) {
+  background: url(../img/banner5.jpg) no-repeat;
+  background-position: center auto;
+  background-size: 100% auto;
+}
+.banner-box:nth-child(13) {
+  background: url(../img/banner6.jpg) no-repeat;
+  background-position: center auto;
+  background-size: 100% auto;
+}
+
+.content-box {
+  padding: 55px 230px;
+  position: relative;
+}
+.content-box p {
+  padding: 16px 0;
+  line-height: 24px;
+}
+.content-box__img {
+  width: 820px;
+  height: 415px;
+  margin: 20px auto;
+  position: relative;
+}
+.content-box__img img {
+  height: 100%;
+  width: 100%;
+  border-top: solid black 3px;
+  border-bottom: solid black 3px;
+}
+.content-box__img p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */
