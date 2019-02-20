@@ -1,7 +1,7 @@
 .banner-box {
-    background: url(../img/banner0.jpg) no-repeat;
+    background: url(../img/top-bg.png) no-repeat;
     background-position: center center;
-    background-size: 100% auto;
+    background-size: cover;
     width: 100%;
     padding: 150px 230px;
     color: #fff;
@@ -11,8 +11,6 @@
 
     @media(max-width: 1200px) {
         padding: 80px 100px;
-
-
     }
 
     @media(max-width: 800px) {
@@ -30,19 +28,51 @@
         padding: 75px 20px;
 
     }
+    
+    &--top {
+        padding: 200px 230px;
+        background-size: auto;
+        background-color: #75a3be;
+        background-position: center;
+        color: #734f2c;
+        background-attachment: fixed;
+        
+        @media(max-width: 1200px) {
+            padding: 150px 100px;
+            background-size: 76%;
+            background-position: center 34%;
+        }
+        
+        @media(max-width: 800px) {
+            padding: 120px 63px 100px;
+            background-position: center 16%;
+        }
+        
+        @media(max-width: 615px) {
+            background-position: center 35%;
+        }
+
+        @media(max-width: 550px) {
+            padding: 80px 20px 50px;
+            background-position: center 14%;
+        }
+    }
 
     &__logo {
         position: absolute;
-        top: 10px;
+        width: 117px;
+        top: 50px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-
-        @media(max-width: 550px) {
-            padding-top: 10px;
+        
+        @media(max-width: 800px) {
+            top: 30px;
         }
 
-
+        @media(max-width: 550px) {
+            top: 0;
+        }
     }
 
     &__caption {

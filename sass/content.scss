@@ -26,12 +26,22 @@
     }
 
     &__img {
-        width: 820px;
+        width: 80%;
         margin: 20px auto;
         position: relative;
-
+        
         @media(max-width: 1200px) {
-            width: 80%;
+            width: 100%;
+        }
+        
+        @media(max-width: 800px) {
+            margin: 0;
+        }
+        
+        &:last-child {
+            @media(max-width: 800px) {
+                margin-bottom: 20px;
+            }
         }
 
         img {
@@ -54,12 +64,12 @@
 
 .opacity {
     opacity: 0;
-    transform: translateY(50px)
+    transform: translateY(50px);
+    transition: all 0.5s;
 }
 .slideIn {
     opacity: 1;
-    transform: translatey(0);
-    transition: .3s;
+    transform: translateY(0);
 }
 
 
