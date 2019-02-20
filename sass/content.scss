@@ -2,6 +2,24 @@
     padding: 55px 230px;
     position: relative;
 
+    @media(max-width: 1200px) {
+        padding: 55px 110px;
+    }
+
+    @media(max-width: 800px) {
+        padding: 16px 80px;
+    }
+
+        @media(max-width: 750px) {
+        padding: 7px 80px;
+    }
+    @media(max-width: 550px) {
+        padding: 0px 30px;
+    }
+            @media(max-width: 800px) {
+       font-size: 13px;
+    }
+
     p {
         padding: 16px 0;
         line-height: 24px;
@@ -9,9 +27,12 @@
 
     &__img {
         width: 820px;
-        height: 415px;
         margin: 20px auto;
         position: relative;
+
+        @media(max-width: 1200px) {
+            width: 80%;
+        }
 
         img {
             height: 100%;
@@ -19,7 +40,7 @@
             border-top: solid black 3px;
             border-bottom: solid black 3px;
 
-            
+
         }
 
         p {
@@ -29,4 +50,19 @@
         }
     }
 
+}
+
+.opacity {
+    opacity: 0;
+    transform: translateY(50px)
+}
+.slideIn {
+    opacity: 1;
+    transform: translatey(0);
+    transition: .3s;
+}
+
+
+.no-border {
+    border: none !important;
 }
